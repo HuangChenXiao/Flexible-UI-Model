@@ -1,0 +1,133 @@
+﻿
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>我的生活</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="/dist/css/sm.css">
+    <link rel="stylesheet" href="/dist/css/sm-extend.css">
+    <link href="dist/css/swiper.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="page-group">
+        <div id="page-view-card" class="page page-current">
+            <header class="bar bar-nav">
+                <a class="button button-link button-nav pull-left back">
+                    <span class="icon icon-left"></span>
+                    返回
+                </a>
+                <a class="button button-link button-nav pull-right">
+                    下一步
+                    <span class="icon icon-right"></span>
+                </a>
+                <h1 class="title">标题</h1>
+            </header>
+            <!-- Swiper -->
+            <div class="content">
+                <div class="swiper-container" style="height: 4rem;">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">Slide 1</div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        <div class="swiper-slide">Slide 4</div>
+                        <div class="swiper-slide">Slide 5</div>
+                        <div class="swiper-slide">Slide 6</div>
+                        <div class="swiper-slide">Slide 7</div>
+                        <div class="swiper-slide">Slide 8</div>
+                        <div class="swiper-slide">Slide 9</div>
+                        <div class="swiper-slide">Slide 10</div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+
+                <div class="native-scroll">
+                    <div class="card">
+                        <div class="card-header">新的公布:</div>
+                        <div class="card-content">
+                            <div class="list-block media-list">
+                                <ul>
+                                    <li class="item-content">
+                                        <div class="item-media">
+                                            <img src="http://gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i3/TB10LfcHFXXXXXKXpXXXXXXXXXX_!!0-item_pic.jpg_250x250q60.jpg" width="44">
+                                        </div>
+                                        <div class="item-inner">
+                                            <div class="item-title-row">
+                                                <div class="item-title">标题</div>
+                                            </div>
+                                            <div class="item-subtitle">子标题</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-media">
+                                            <img src="http://gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i3/TB10LfcHFXXXXXKXpXXXXXXXXXX_!!0-item_pic.jpg_250x250q60.jpg" width="44">
+                                        </div>
+                                        <div class="item-inner">
+                                            <div class="item-title-row">
+                                                <div class="item-title">标题</div>
+                                            </div>
+                                            <div class="item-subtitle">子标题</div>
+                                        </div>
+                                    </li>
+                                    <li class="item-content">
+                                        <div class="item-media">
+                                            <img src="http://gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i3/TB10LfcHFXXXXXKXpXXXXXXXXXX_!!0-item_pic.jpg_250x250q60.jpg" width="44">
+                                        </div>
+                                        <div class="item-inner">
+                                            <div class="item-title-row">
+                                                <div class="item-title">标题</div>
+                                            </div>
+                                            <div class="item-subtitle">子标题</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="bar bar-tab">
+                <a class="tab-item external active" href="#">
+                    <span class="icon icon-home"></span>
+                    <span class="tab-label">文案</span>
+                </a>
+                <a class="tab-item external" href="#">
+                    <span class="icon icon-me"></span>
+                    <span class="tab-label">文案</span>
+                    <span class="badge">2</span>
+                </a>
+                <a class="tab-item external" href="#">
+                    <span class="icon icon-star"></span>
+                    <span class="tab-label">文案</span>
+                </a>
+                <a class="tab-item external" href="#">
+                    <span class="icon icon-cart"></span>
+                    <span class="tab-label">文案</span>
+                </a>
+                <a class="tab-item external" href="#">
+                    <span class="icon icon-settings"></span>
+                    <span class="tab-label">文案</span>
+                </a>
+            </nav>
+        </div>
+    </div>
+    <script src="js/flexible.js"></script>
+    <script type='text/javascript' src='/dist/js/sm.js' charset='utf-8'></script>
+    <script type='text/javascript' src='/dist/js/sm-extend.js' charset='utf-8'></script>
+    <script src="dist/js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true
+        });
+        $(function () {
+            $.init()
+        });
+    </script>
+</body>
+</html>
