@@ -5643,7 +5643,7 @@ html:not(.watch-active-state) .theme-white label.label-radio:active,
     padding:.3rem;
 }
 .content-nopadded .row:last-child{
-    padding-top:.3rem;
+    padding-top:.2rem;
 }
 .f-ui-icon img {
 width:100%;
