@@ -54,7 +54,7 @@
           animation-direction: @direction;
 }
 */
-html {
+/*html {
     font-size: 20px;
 }
 
@@ -74,7 +74,7 @@ html {
     html {
         font-size: 25.6px !important;
     }
-}
+}*/
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
     font-family: sans-serif;
@@ -5646,6 +5646,7 @@ html:not(.watch-active-state) .theme-white label.label-radio:active,
     padding-top:.2rem;
 }
 .f-ui-icon img {
-width:100%;
+width:2rem;
+height:auto;
 padding:.1rem;
 }

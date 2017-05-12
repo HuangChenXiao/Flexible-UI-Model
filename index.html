@@ -4,13 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>我的生活</title>
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <!--<meta name="viewport" content="initial-scale=0.5, maximum-scale=0.5, minimum-scale=0.5, user-scalable=no">-->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link href="css/base.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/dist/css/sm.css">
-    <link rel="stylesheet" href="/dist/css/sm-extend.css">
-    <link href="/dist/css/swiper.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="dist/css/sm.css">
+    <link rel="stylesheet" href="dist/css/sm-extend.css">
+    <link rel="stylesheet" href="dist/css/swiper.min.css" />
 
 </head>
 <body>
@@ -294,18 +295,20 @@
             </nav>
         </div>
     </div>
-    <script src="js/flexible.js"></script>
-    <script type='text/javascript' src='/dist/js/sm.js' charset='utf-8'></script>
-    <script type='text/javascript' src='/dist/js/sm-extend.js' charset='utf-8'></script>
-    <script src="/dist/js/swiper.min.js"></script>
+    <script type='text/javascript' src="js/flexible.js" charset='utf-8'></script>
+    <script type='text/javascript' src='dist/js/sm.js' charset='utf-8'></script>
+    <script type='text/javascript' src='dist/js/sm-extend.js' charset='utf-8'></script>
+    <script type='text/javascript' src="dist/js/swiper.min.js" charset='utf-8'></script>
     <script>
         var swiper = new Swiper('.swiper-container', {
             pagination: '.swiper-pagination',
-            paginationClickable: true
-        });
-        $(function () {
-            $.alert(11);
-            $.init()
+            paginationClickable: true,
+            speed: 1000,
+            loop: true,
+            observer: true,
+            observeParents: true,
+            autoplayDisableOnInteraction: false,
+            autoplay: 3000
         });
     </script>
 </body>
