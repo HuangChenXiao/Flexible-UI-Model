@@ -4654,17 +4654,17 @@ body.panel-closing .page {
 
 .picker-columns {
     width: 100%;
-    height: 13rem;
+    height: 7.5rem;
     z-index: 11500;
 }
 
 .picker-columns.picker-modal-inline {
-    height: 10rem;
+    height: 4rem;
 }
 
 @media (orientation: landscape) and (max-height: 415px) {
     .picker-columns:not(.picker-modal-inline) {
-        height: 10rem;
+        height: 6rem;
     }
 }
 
@@ -4683,7 +4683,7 @@ body.panel-closing .page {
 }
 
 .bar+.picker-items {
-    height: 10.8rem;
+    height: 7rem;
 }
 
 .picker-items-col {
@@ -4712,6 +4712,7 @@ body.panel-closing .page {
     -webkit-box-align: center;
     -webkit-align-items: center;
     align-items: center;
+    font-size: .75rem
 }
 
 .picker-items-col-normal {
@@ -4740,6 +4741,7 @@ body.panel-closing .page {
     box-sizing: border-box;
     -webkit-transition: 300ms;
     transition: 300ms;
+    font-size: .65rem;
 }
 
 .picker-items-col-absolute .picker-item {
